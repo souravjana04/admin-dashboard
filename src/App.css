@@ -1,0 +1,137 @@
+.App{
+  margin: 0% 5%
+}
+.dashboard-title{
+  margin-bottom: 0;
+}
+.tabs{
+  display: inline-block;
+  cursor: pointer;
+  padding: 20px;
+  width: 16%;
+  margin: 0px 5px 0px;
+  color: rgb(32, 32, 240);
+}
+.tabs:hover, .tabs-active{
+  background-color: blue;
+  border-radius: 5px;
+  color:white;
+}
+#tab-component{
+  margin-left: 20px;
+}  
+
+#view-detail-btn{
+  background-color: blue;
+  padding:10px;
+  color: white;
+  border: blue;
+  outline: none;
+  border-radius: 5px;
+}
+
+.shortlist-btn{
+  background-color: green;
+  padding:10px;
+  color: white;
+  border: green;
+  outline: none;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.reject-btn{
+  background-color: red;
+  padding:10px;
+  color: white;
+  border: red;
+  outline: none;
+  border-radius: 5px;
+}
+
+#view-detail-btn:hover, .shortlist-btn:hover, .reject-btn:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+table{
+  width:100%;
+  table-layout: fixed;
+  text-align: left;
+  font-size:15px;
+  border-collapse: collapse;
+} 
+
+th, td {
+  border-bottom: 1px solid #ddd;
+  height: 40px;
+  word-wrap: break-word;
+}
+
+td{
+  vertical-align: top;
+}
+
+#tech-skill-col{
+  width:30%;
+}
+
+#status-col{
+  width:20%;
+}
+
+/* CSS part for modal */
+.modal{
+  position: fixed;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-content{
+  background-color: white;
+  width:40%;
+  height: 60%;
+  margin: 10% 30%;
+  border-radius: 2%; 
+  box-shadow:3px 4px 5px 3px rgba(0, 0, 0, 0.305);
+}
+.modal-header{
+  height: 15%;
+  border-bottom: 1px solid #ddd;
+}
+.modal-header p{
+  padding: 18px;
+  font-weight: 500;
+}
+.modal-header span{
+  float: right;
+  cursor: pointer;
+  color: rgb(177, 177, 177);
+}
+.modal-body{
+  height: 70%;
+  margin-left: 15px;
+  overflow-y: scroll;
+}
+.modal-table td{
+  border:none;
+}
+.modal-table td:first-child{
+  font-weight: bold;
+}
+.modal-footer{
+  height: 15%;
+  border-top: 1px solid #ddd;
+}
+.modal-footer button{
+  float: right;
+  margin: 13px;
+  width: 60px;
+  height:30px;
+  opacity:0.7;
+}
+.skill-list{
+  margin-top:0;
+}
